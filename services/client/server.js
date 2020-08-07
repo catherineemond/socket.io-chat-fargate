@@ -2,6 +2,7 @@
 var express = require("express");
 var path = require("path");
 var config = require("./lib/config");
+var enforce = require("express-sslify");
 
 var app = express();
 
